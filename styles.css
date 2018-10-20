@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=K2D');
+body{
+    background-color: #dddbdb; 
+}
+
+.wrapper {
+    width:500px;
+    height:350px;
+    left: 25%;
+    top: 25%;
+    position:absolute;
+    padding:12px;
+    background-color: white; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}    
+
+/*form input------------------------------*/
+.formInput{
+    margin: 10px 20px;  
+    border-bottom:1px solid black;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    width: 200px;
+    font-size: 15px; 
+    margin-bottom: 10%;
+}
+
+.formInput:hover {
+  background-color: #ff55554f;  
+}
+
+
+/*form button------------------------------*/
+.formButton {
+    border-radius: 50px;
+    background-color: #f55;
+    color: white;
+    padding:10px 10px;
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: 15%;
+    font-family: 'K2D', sans-serif;
+}
+
+.formButton:hover {
+    background-color: #e63f3f;
+}    
+
+/*right input------------------------------*/
+.content-right{
+    width:50%;
+    float:right;
+}
+
+/*img------------------------------*/
+
+.img{
+    width:50%;
+    float:right;
+    height: 350px; 
+    width: 250px;
+}    
+
+/*header------------------------------*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}    
+
+/*stamp------------------------------*/
+.stamp{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 85%;
+} 
+
+.stamp-wrap {
+    float: right;
+}
+
+/*footer------------------------------*/
+.footer{
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    color: #212529;
+    text-align: center; 
+    margin-top: 105%;
+    
+}
+
+@keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.4); }
+	to { transform: none; }
+}
+
+
+.heart {
+	display: inline-block;
+	font-size: 15px;
+	color: #212529;
+	animation: pound .80s infinite;
+	transform-origin: center;
+}
