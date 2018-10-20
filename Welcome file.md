@@ -1,4 +1,4 @@
-# Greetings World!!
+# Greetings World!
 
 This digital postcard was made from scratch using HTML & CSS. :smile:
 
@@ -6,5 +6,5 @@ I envisioned making a simple and clean design, with a font that looks hand writt
 This digital postcard allows you to share messages via https://formspree.io/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjI3MjU5XX0=
+eyJoaXN0b3J5IjpbLTE4ODU2NTE5MzBdfQ==
 -->
